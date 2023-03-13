@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    min-height: 100vh;
+}
+button{
+    background-color: #46A2BC;
+    border-color: white;
+    border-radius: 10%;
+    border-style: none;
+    padding: 10px 15px;
+}
+
+.top{
+    background-color: #C296B9;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px 100px;
+    height: 300px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.top-content{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ppp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    gap: 16px;
+}
+.ppp button{
+    border-style: none
+}
+#mainimg{
+    height: auto;
+    width: 300px;
+    border-radius: 5%;  
+}
+.middle-top{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.middle-top header{
+    font-size: 36px;
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    gap: 24px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    gap: 16px; 
+}
+.boxes img{
+    height: auto;
+    width: 200px;
+    border-radius: 5%;
+}
+.middle-bottom{
+    background-color: #46A2BC;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.middle-bottom div{
+    width: 300px;
+}
+#thor{
+    display: flex;
+    justify-content: flex-end;
+}
+.bottom{
+    background-color: white;
+    display: flex;
+    padding: 10px 100px;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+.card{
+    background-color: #46A2BC;
+    display: flex;
+    padding: 50px 100px;
+    border-radius: 5px;
+}
+.card button{
+    border-style: solid;
+    border-width: 2px;
+}
+footer{
+    background-color: #C296B9;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100px;
+}
